@@ -1,0 +1,82 @@
+[
+  {
+    "id": "ATC_001",
+    "category": "audit-trail-compliance",
+    "name": "Batch BX-2847 - Cross-System Audit Trail Review",
+    "stockId": "BX-2847",
+    "status": "Ready",
+    "currentStatus": "Queued for review",
+    "keyDetails": {
+      "batchId": "BX-2847",
+      "product": "Enbrel (Etanercept) 50mg",
+      "site": "ATO (Thousand Oaks, CA)",
+      "systemsInScope": "DeltaV, PI Historian, MES, LIMS, Veeva Vault",
+      "auditEntries": "12,247",
+      "reviewType": "Batch Disposition Review"
+    },
+    "batchId": "BX-2847",
+    "product": "Enbrel (Etanercept) 50mg",
+    "site": "ATO (Thousand Oaks, CA)",
+    "reviewType": "Batch Disposition Review"
+  },
+  {
+    "id": "ATC_002",
+    "category": "audit-trail-compliance",
+    "name": "Batch BX-2851 - Data Integrity Violation",
+    "stockId": "BX-2851",
+    "status": "Ready",
+    "currentStatus": "Queued for review",
+    "keyDetails": {
+      "batchId": "BX-2851",
+      "product": "Repatha (Evolocumab) 140mg",
+      "site": "ARI (West Greenwich, RI)",
+      "systemsInScope": "DeltaV, PI Historian, MES",
+      "auditEntries": "8,934",
+      "reviewType": "Data Integrity Verification"
+    },
+    "batchId": "BX-2851",
+    "product": "Repatha (Evolocumab) 140mg",
+    "site": "ARI (West Greenwich, RI)",
+    "reviewType": "Data Integrity Verification"
+  },
+  {
+    "id": "ATC_003",
+    "category": "audit-trail-compliance",
+    "name": "Batch BX-2849 - Clean Batch Review",
+    "stockId": "BX-2849",
+    "status": "Ready",
+    "currentStatus": "Queued for review",
+    "keyDetails": {
+      "batchId": "BX-2849",
+      "product": "Prolia (Denosumab) 60mg",
+      "site": "ATO (Thousand Oaks, CA)",
+      "systemsInScope": "DeltaV, PI Historian, MES, LIMS, Veeva Vault",
+      "auditEntries": "9,847",
+      "reviewType": "Standard Batch Review"
+    },
+    "batchId": "BX-2849",
+    "product": "Prolia (Denosumab) 60mg",
+    "site": "ATO (Thousand Oaks, CA)",
+    "reviewType": "Standard Batch Review"
+  },
+  {
+    "id": "ATC_004",
+    "category": "audit-trail-compliance",
+    "name": "30-Batch Periodic Review - Operator Pattern",
+    "stockId": "PERIODIC-Q1",
+    "status": "Ready",
+    "currentStatus": "Queued for review",
+    "keyDetails": {
+      "batchId": "PERIODIC-Q1-2026",
+      "product": "Multi-Product (Enbrel, Repatha, Prolia)",
+      "site": "ATO (Thousand Oaks, CA)",
+      "systemsInScope": "MES, DeltaV, PI Historian",
+      "auditEntries": "347,291",
+      "reviewType": "Periodic Trend Analysis"
+    },
+    "batchId": "PERIODIC-Q1-2026",
+    "product": "Multi-Product",
+    "site": "ATO (Thousand Oaks, CA)",
+    "reviewType": "Periodic Trend Analysis"
+  }
+]
